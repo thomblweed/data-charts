@@ -4,6 +4,13 @@
   "projectType": "application",
   "sourceRoot": "apps/server/server",
   "targets": {
+    "start": {
+      "executor": "@nxlv/python:run-commands",
+      "options": {
+        "command": "poetry run start",
+        "cwd": "apps/server"
+      }
+    },
     "lock": {
       "executor": "@nxlv/python:run-commands",
       "options": {

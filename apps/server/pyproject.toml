@@ -31,6 +31,9 @@ readme = 'README.md'
   pytest-cov = "4.1.0"
   pytest-html = "3.2.0"
 
+[tool.poetry.scripts]
+start = "server.start:start"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

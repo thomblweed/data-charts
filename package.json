@@ -4,8 +4,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "nx serve client",
+    "start": "nx run-many -t start",
     "lint": "nx run-many -t lint",
-    "test": "nx run-many -t test"
+    "test": "nx run-many -t test",
+    "install": "nx run-many -t install",
+    "build": "nx run-many -t build"
   },
   "private": true,
   "dependencies": {
